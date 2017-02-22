@@ -14,7 +14,8 @@ public class DaysInMonth {
 				break;
 				
 		case 2: System.out.println("Febuary");
-				if(year%4 == 0 && year%100 != 0){
+				if(year%4 == 0 && year%100 != 0){ //incomplete condition should be
+								  //year % 4 == 0 && (year % 100 != 0 || year % 400 == 0)
 					System.out.println("This is a leap year.");
 					System.out.println("There are 29 days.");
 					System.out.println(year);
